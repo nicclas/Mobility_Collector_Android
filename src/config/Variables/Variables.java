@@ -22,7 +22,7 @@ public class Variables {
 	public static float accuracyFilterValue = 0;
 	public static boolean periodAnnotations = true;
 
-	public static final String urlConnection = "http://utcb.ro"+"/Mobility_Collector_Servlet";
+	public static final String urlConnection = "http://resvan.com"+"/mc";
 
 	public static final String aboutSectionString = "first!_!row!__!test!_!test!_!test!_!!__!new!_!test!_!new!_!test!_!new!_!test!_!!__!last!_!row";
 
