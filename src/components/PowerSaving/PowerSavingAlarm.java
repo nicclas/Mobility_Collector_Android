@@ -171,13 +171,16 @@ public class PowerSavingAlarm extends BroadcastReceiver {
 		alarmManager.cancel(sender);
 
 		try {
-			mSensorManager.unregisterListener(mSensorListener);
+			if(mSensorManager != null)
+				mSensorManager.unregisterListener(mSensorListener);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		try {
-			wl.release();
+			if(wl != null)
+				if (wl.isHeld())
+					wl.release();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
