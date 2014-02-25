@@ -10,6 +10,6 @@ public class Constants {
 	public static String serviceColumnName = "isServiceOn";
 	public static String userIdColumnName = "userId";
 	public static String urlColumnName = "urlCurrent";
-	public static final String servletName = "/ConnectToDatabase";
+	public static final String servletName = "/ConnectToDatabase.php";
 	
 }
