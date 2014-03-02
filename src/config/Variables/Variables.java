@@ -2,7 +2,7 @@ package config.Variables;
 
 public class Variables {
     
-    public static int samplingMinDistance = 50;
+    public static int samplingMinDistance = 100;
 	public static int samplingMinTime = 25;
 
 	public static int isAutoUpload = 1;
